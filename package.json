@@ -1,7 +1,7 @@
 {
 	"name": "@mmstudio/aw000004",
 	"version": "1.0.0",
-	"description": "call nodejs service",
+	"description": "调用nodejs服务",
 	"scripts": {
 		"test": "npm run build && karma start --single-run",
 		"watch": "tsc -w & karma start",
@@ -40,6 +40,8 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
+		"@mmstudio/aw000003": "^1.0.202003081156",
+		"@mmstudio/global": "^1.0.202003051131",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"chai": "latest",
