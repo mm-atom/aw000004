@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/aw000004",
-	"version": "1.0.202003081227",
+	"version": "1.0.202003081735",
 	"description": "调用nodejs服务",
 	"scripts": {
 		"test": "npm run build && karma start --single-run",
