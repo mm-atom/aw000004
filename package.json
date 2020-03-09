@@ -38,9 +38,6 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {
-		"@mmstudio/aw000003": "1.0.202003081659"
-	},
 	"peerDependencies": {
 		"@mmstudio/global": "*"
 	},
