@@ -9,7 +9,8 @@ export default async function send_msg<T>(service: string, msg: unknown) {
 		body: data,
 		headers: {
 			'Content-Type': 'text/json; charset=utf-8'
-		}
+		},
+		credentials: 'include'
 	});
 	const content_type = res.headers.get('Content-type');
 	if (res.status > 0 && res.status < 400) {
